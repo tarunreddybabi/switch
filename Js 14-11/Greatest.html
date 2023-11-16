@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greatest of Three Numbers</title>
+</head>
+<body>
+    <script>
+        var a=+prompt("Enter the first number");
+        var b=+prompt("Enter the second  number");
+        var c=+prompt("Enter the third number");
+
+        if(a>b && a>c){
+            alert(a + " is greater than " + b +  " and "  + c);
+        }
+        else if(b>a && b>c){
+            alert(b + " is greater than " + a + " and " + c);
+        }
+        else if(c>a && c>b){
+            alert(c + " is greater than " + a + " and " + b);
+        }
+        else{
+            alert("All numbers are equal")
+        }
+
+    </script>
+</body>
+</html>
